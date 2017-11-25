@@ -1,0 +1,17 @@
+﻿自动生成组件，angular提供的工具
+        在当前目录下生成一个组件
+            命令：ng g component
+        由于整个项目拆分成了7个 app整个大组件已经创建好了，所以只需要创建另外6个
+        1.导航栏组件    ng g component navbar
+        2.页脚组件      ng g component footer
+        3.查询表单组件  ng g component search
+        4.轮播图组件    ng g component carousel
+        5.产品信息组件  ng g component prodect
+        6.星级评价组件  ng g component stars
+
+        会在 src/app目录下 创建1个文件夹，且里面创建4个文件
+            create src/app/navbar/navbar.component.html (25 bytes)
+            create src/app/navbar/navbar.component.spec.ts (628 bytes)
+            create src/app/navbar/navbar.component.ts (269 bytes)
+            create src/app/navbar/navbar.component.css (0 bytes)
+            update src/app/app.module.ts (1241 bytes)
